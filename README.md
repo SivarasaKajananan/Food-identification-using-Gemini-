@@ -7,7 +7,7 @@ This project utilizes the Google AI Gemini Pro Vsion model to estimate the calor
 - Calorie Estimation: Calculates the estimated calories for each detected food item.
 - Total Calorie Count: Provides a sum of the estimated calories for all food items in the image.
 
-#### Install the required libraries:
+#### Install the required librarie:
 ```python
 pip install -q -U google-generativeai
 ```
