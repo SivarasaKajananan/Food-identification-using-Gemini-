@@ -23,14 +23,7 @@ Usage
 1.Run the provided Jupyter Notebook (food_calorie_estimation.ipynb) to execute the code.
 2.Upload an image of the food you want to analyze.
 3.The code will process the image and generate a list of food items with their estimated calories, along with the total calorie count.
-Example Output
-Rice - 200 calories
-Chicken - 200 calories
-Dhal - 150 calories
-Vegetables - 100 calories
-Papadam - 100 calories
-Total calories: 750 calories
-   
+
 Disclaimer
 Calorie estimations are approximations and may not be entirely accurate.
 The accuracy of the model depends on various factors, including image quality, food item visibility, and model limitations.
