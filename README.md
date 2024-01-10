@@ -31,6 +31,5 @@ Contributing
 Feel free to contribute to this project by suggesting improvements or adding new features!
 
 # Additional Information
-
 Model Configuration: The model is configured with specific settings for temperature, top_p, top_k, and max_output_tokens.
 Safety Settings: Safety settings are configured to block content that may be harmful or offensive.
