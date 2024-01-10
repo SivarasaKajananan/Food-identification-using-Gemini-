@@ -2,7 +2,7 @@
 
 This project utilizes the Google AI Gemini Pro Vsion model to estimate the calories of individual food items presented in a given image.
 
-####Key Features
+#Key Features
 ---Image Analysis: Analyzes an input image to identify the food items present.--
 ---Calorie Estimation: Calculates the estimated calories for each detected food item.--
 ---Total Calorie Count: Provides a sum of the estimated calories for all food items in the image.--
