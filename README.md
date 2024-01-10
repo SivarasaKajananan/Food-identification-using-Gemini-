@@ -18,16 +18,18 @@ from google.colab import userdata
 GOOGLE_API_KEY = userdata.get('Gemini')  # Replace with your actual API key
 genai.configure(api_key=GOOGLE_API_KEY)
 ```
-#####Usage
+#### Usage
 1. Run the provided Jupyter Notebook (food_calorie_estimation.ipynb) to execute the code.
 2. Upload an image of the food you want to analyze.
 3. The code will process the image and generate a list of food items with their estimated calories, along with the total calorie count.
 
 #### Disclaimer
-..Calorie estimations are approximations and may not be entirely accurate..
-..The accuracy of the model depends on various factors, including image quality, food item visibility, and model limitations..
+Calorie estimations are approximations and may not be entirely accurate.
+
+The accuracy of the model depends on various factors, including image quality, food item visibility, and model limitations.
 
 
 #### Additional Information
-..Model Configuration: The model is configured with specific settings for temperature, top_p, top_k, and max_output_tokens..
-..Safety Settings: Safety settings are configured to block content that may be harmful or offensive..
+Model Configuration: The model is configured with specific settings for temperature, top_p, top_k, and max_output_tokens.
+
+Safety Settings: Safety settings are configured to block content that may be harmful or offensive.
