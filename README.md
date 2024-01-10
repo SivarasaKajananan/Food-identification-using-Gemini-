@@ -2,24 +2,24 @@
 
 This project utilizes the Google AI Gemini Pro Vsion model to estimate the calories of individual food items presented in a given image.
 
-Key Features
-Image Analysis: Analyzes an input image to identify the food items present.
-Calorie Estimation: Calculates the estimated calories for each detected food item.
-Total Calorie Count: Provides a sum of the estimated calories for all food items in the image.
-Technologies Used
-Python
-Gemini Pro vision
+####Key Features
+---Image Analysis: Analyzes an input image to identify the food items present.--
+---Calorie Estimation: Calculates the estimated calories for each detected food item.--
+---Total Calorie Count: Provides a sum of the estimated calories for all food items in the image.--
 
-Installation
-Install the required libraries:
+#####Install the required libraries:
+```python
+pip install -q -U google-generativeai
+```
 pip install -q -U google-generativeai
 
-Set up your Google API key:
+#######Set up your Google API key:
+```python
 from google.colab import userdata
 GOOGLE_API_KEY = userdata.get('Gemini')  # Replace with your actual API key
 genai.configure(api_key=GOOGLE_API_KEY)
-
-Usage
+```
+#####Usage
 1.Run the provided Jupyter Notebook (food_calorie_estimation.ipynb) to execute the code.
 2.Upload an image of the food you want to analyze.
 3.The code will process the image and generate a list of food items with their estimated calories, along with the total calorie count.
